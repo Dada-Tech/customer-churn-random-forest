@@ -50,7 +50,7 @@ importances = forest.feature_importances_
 std = np.std([tree.feature_importances_ for tree in forest.estimators_], axis=0)
 forest_importances_mdi = pd.Series(importances, index=feature_names)
 ```
-![img.png](resources/feature-importance-mdi.png)
+![feature-importance-mdi.png](resources/feature-importance-mdi.png)
 
 #### "Black-Box" Solution Feature Ranking
 ![feature_selection.png](resources/feature-importance.png)
@@ -102,7 +102,7 @@ display(HTML(df_rs[df_display_columns].sort_values('rank_test_score').to_html())
 ```
 {'n_estimators': 118, 'min_samples_split': 11, 'min_samples_leaf': 6, 'max_samples': 0.6666666666666666, 'max_features': 'auto', 'max_depth': 23}
 ```
-![img.png](resources/hyperparameter-rank.png)
+![hyperparameter_search_results-20.png](resources/hyperparameter_search_results-20.png)
 
 ## Model Interpretability
 We can see examples of underfitting, overfitting, and fitting well by altering parameters of the random forest algorithm.
@@ -150,7 +150,7 @@ print(skm.classification_report(y_pred, y_test))
 
 plt.show()
 ```
-![img.png](resources/rf_confusion_matrix.png)
+![confusion_matrix.png](resources/confusion_matrix.png)
 
 ```
               precision    recall  f1-score   support
