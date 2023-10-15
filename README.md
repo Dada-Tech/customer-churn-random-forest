@@ -53,7 +53,7 @@ forest_importances_mdi = pd.Series(importances, index=feature_names)
 ![img.png](resources/feature-importance-mdi.png)
 
 #### "Black-Box" Solution Feature Ranking
-![feature_selection.png](feature_selection.png)
+![feature_selection.png](resources/feature-importance.png)
 
 ### Model Comparisons
 RandomForest, GaussianNB, KNeighborsClassifier and LinearSVC
