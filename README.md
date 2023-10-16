@@ -162,3 +162,9 @@ plt.show()
    macro avg       0.70      0.76      0.72       705
 weighted avg       0.84      0.80      0.81       705
 ```
+
+# Data Insights
+![charges-tenure-correlation.png](data-insights/charges-tenure-correlation.png)
+![churning.png](data-insights/churning.png)
+![gender-churned.png](data-insights/gender-churned.png)
+![tenure-charges.png](data-insights/tenure-charges.png)
