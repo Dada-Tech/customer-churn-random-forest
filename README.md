@@ -164,7 +164,20 @@ weighted avg       0.84      0.80      0.81       705
 ```
 
 # Data Insights
-![charges-tenure-correlation.png](data-insights/charges-tenure-correlation.png)
+
+## General Insights: Churning
+We can see clear trends in the data that tenure is inversley correlated with churning, which explains why low total charges shows a high churn rate.  
+
 ![churning.png](data-insights/churning.png)
-![gender-churned.png](data-insights/gender-churned.png)
+
+## Tenure Correlation
+We can see that customers with long tenures tend to pay more monthly, and also have the most total charges over time.  
+
 ![tenure-charges.png](data-insights/tenure-charges.png)
+
+![charges-tenure-correlation.png](data-insights/charges-tenure-correlation.png)
+
+## Gender
+There are no significant differences in gender for churn rate.  
+
+![gender-churned.png](data-insights/gender-churned.png)
